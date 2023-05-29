@@ -194,6 +194,19 @@ footer {
     width: 60%;
 }
 
+footer ul li a:hover {
+    background: rgb(255, 255, 255);
+    color: black ;
+    border-radius: 15px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    font-weight: bold;
+}
+
 footer ul {
     list-style: none;
     display: flex;
@@ -208,19 +221,3 @@ footer ul li {
     font-weight: bold;
 }
 
-footer ul li a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    padding: 8px;
-    font-weight: bold;
-}
-
-footer ul li a:hover {
-    background: rgb(255, 255, 255);
-    color: black ;
-    border-radius: 15px;
-}
-
-footer ul li p {
-    align-content: center;
-}
